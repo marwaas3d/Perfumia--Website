@@ -1,0 +1,45 @@
+
+nav{
+    background-color: #f6d9b0 !important;
+    box-shadow: 0 0 10px rgb(0 0 0 / 50%);
+}
+
+nav::after{
+    content: "PERFUMIA";
+    color: #f6d9b0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 0px;
+    width: 150px;
+    height: 54px;
+    background-color: black;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    border-bottom-left-radius: 67% 75%;
+    border-bottom-right-radius: 46% 111%;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+
+.navbar-toggler{
+   border: none;
+}
+.navbar-toggler:focus{
+    box-shadow: none;
+}
+
+.burgerBtn{
+    font-size: 30px;
+}
+
+.shopping-card{
+    cursor: pointer;   
+    color: black; 
+}

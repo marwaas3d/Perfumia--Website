@@ -1,0 +1,65 @@
+
+main{
+    background-image: url(../../../public/assets/background.jpeg);
+    height: 95vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 56px;
+}
+
+@media (max-width: 678px){
+    main{
+        background-image: url(../../../public/assets/background-mobile.png);
+    }
+}
+
+.heading h1{
+    font-size: 60px;
+    max-width: 27rem;
+}
+
+@media (max-width:768px){
+    .heading h1{
+    font-size: 40px;
+    width: 100%;
+}
+}
+
+.heading p{
+    font-size: 20px;
+    max-width: 31rem;
+}
+@media (max-width:768px){
+    .heading{
+        background-color: #05606499;
+        border-radius: 20PX;
+        -webkit-border-radius: 20PX;
+        -moz-border-radius: 20PX;
+        -ms-border-radius: 20PX;
+        -o-border-radius: 20PX;
+}
+    .heading p ,
+    .heading h1{
+        color: #f6d9b0;
+    }
+    .heading p{
+    font-size: 17px;
+    width: 100%;
+    letter-spacing: 1px;
+}
+}
+
+a.buy{
+    color: #f6d9b0;
+    transition: all .6s linear;
+    -webkit-transition: all .6s linear;
+    -moz-transition: all .6s linear;
+    -ms-transition: all .6s linear;
+    -o-transition: all .6s linear;
+}
+a:hover{
+    background-color: #f6d9b0;
+    color: black;
+    border: none;
+}

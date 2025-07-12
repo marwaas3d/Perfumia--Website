@@ -1,0 +1,80 @@
+:host{
+    background-color: #0b3a3e;
+    display: block;
+    min-height: 100vh;
+    padding-bottom: 100px;
+}
+
+
+.card{
+    min-height: 500px;
+    background-color: #f6d9b0;
+    box-shadow: -1px -4px 11px 0px #d8c299;
+    img{
+        height: 50%;
+        object-fit: cover;
+    }
+    h5{
+        color: #0b3a3e;
+    }
+    .card-body{
+        .card-text{
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 3; 
+        -webkit-box-orient: vertical;
+        max-height: 4.5em; 
+        cursor: pointer;
+        &:hover{
+        overflow: visible;
+        text-overflow: clip;
+        display: block;
+        max-height: none;
+        white-space: normal;
+        }
+        }
+        p{
+            font-size: 14px;
+        }
+    }
+}
+
+.btn-outline-success{
+    outline: #0b3a3e !important;
+    color: #0b3a3e !important;
+    &:hover{
+        background-color: #0b3a3e;
+        color: white !important;
+    }
+}
+.btn:focus{
+    outline: none;
+    border: none;
+}
+
+svg{
+    font-size: 20px;
+    color: #0b3a3e;
+    cursor: pointer;
+}
+
+
+/*************************payment**************************/
+
+.container::after{
+    content: 'Payment';
+    writing-mode: vertical-lr;
+    font-weight: bold;
+    padding: 10px;
+    position: absolute;
+    top: 0px;
+    right: 8px;
+    height: fit-content;
+    width: fit-content;
+    background-color: #d8c299;
+    -webkit-writing-mode: vertical-lr;
+    -ms-writing-mode: vertical-lr;
+    border-bottom-left-radius: 20px;
+    cursor: pointer;
+}
