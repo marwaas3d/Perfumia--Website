@@ -2,7 +2,7 @@
 
 **Perfumia** is a simple and elegant perfume e-commerce website built with **Angular**. It fetches perfume product data from a custom **Supabase API** and allows users to add items to a local shopping cart using the browser’s **localStorage**.
 
----demo :  https://perfumia-website2.netlify.app/
+---demo :  https://perfumiawebsite.netlify.app/#shopping
 ---dashboard: https://perfumia-dashboard.netlify.app/
 
 ## 🛠️ Technologies Used
